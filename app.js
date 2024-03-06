@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 4000;
 
+app.use(cors());
 const houses = [
     {
         "id": "0367baf3-1cb6-4baf-bede-48e17e1cd005",
