@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 4000;
-const cors = cors();
+const cors = require('cors')
 app.use(cors());
 const houses = [
     {
